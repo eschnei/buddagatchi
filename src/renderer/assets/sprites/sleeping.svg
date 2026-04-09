@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <!-- Goose body puffed -->
+  <ellipse cx="60" cy="78" rx="38" ry="28" fill="#F5F0E8" />
+  <ellipse cx="60" cy="80" rx="35" ry="25" fill="#EDE8DC" />
+  <!-- Wings tucked -->
+  <ellipse cx="40" cy="76" rx="12" ry="18" fill="#E8E0D0" transform="rotate(-5 40 76)" />
+  <ellipse cx="80" cy="76" rx="12" ry="18" fill="#E8E0D0" transform="rotate(5 80 76)" />
+  <!-- Neck tucked -->
+  <path d="M55 60 Q50 50 55 45" stroke="#F5F0E8" stroke-width="14" fill="none" stroke-linecap="round" />
+  <!-- Head resting -->
+  <circle cx="55" cy="42" r="12" fill="#F5F0E8" />
+  <!-- Closed eyes -->
+  <path d="M48 40 L56 40" stroke="#1a1a2e" stroke-width="2" stroke-linecap="round" />
+  <!-- Peaceful smile -->
+  <path d="M50 46 Q55 49 60 46" stroke="#1a1a2e" stroke-width="1.5" fill="none" stroke-linecap="round" />
+  <!-- Beak -->
+  <path d="M62 42 L72 41 L62 44 Z" fill="#D4902A" />
+  <!-- Zzz -->
+  <text x="75" y="25" font-family="sans-serif" font-size="14" font-weight="bold" fill="#87CEEB" opacity="0.7">z</text>
+  <text x="85" y="16" font-family="sans-serif" font-size="11" font-weight="bold" fill="#87CEEB" opacity="0.5">z</text>
+  <text x="92" y="10" font-family="sans-serif" font-size="8" font-weight="bold" fill="#87CEEB" opacity="0.3">z</text>
+  <!-- Feet tucked -->
+  <path d="M45 103 L38 108 L48 106 L43 110 L52 107" fill="#D4902A" />
+  <path d="M72 103 L65 108 L75 106 L70 110 L79 107" fill="#D4902A" />
+</svg>

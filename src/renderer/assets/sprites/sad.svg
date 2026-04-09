@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <!-- Goose body (droopy) -->
+  <ellipse cx="60" cy="78" rx="35" ry="26" fill="#E8E0D0" />
+  <ellipse cx="60" cy="80" rx="32" ry="22" fill="#DDD5C5" />
+  <!-- Wings drooping -->
+  <ellipse cx="35" cy="78" rx="12" ry="18" fill="#D8D0C0" transform="rotate(5 35 78)" />
+  <ellipse cx="85" cy="78" rx="12" ry="18" fill="#D8D0C0" transform="rotate(-5 85 78)" />
+  <!-- Neck droopy -->
+  <path d="M55 58 Q45 40 50 25" stroke="#E8E0D0" stroke-width="14" fill="none" stroke-linecap="round" />
+  <path d="M55 58 Q45 40 50 25" stroke="#DDD5C5" stroke-width="10" fill="none" stroke-linecap="round" />
+  <!-- Head -->
+  <circle cx="50" cy="23" r="12" fill="#E8E0D0" />
+  <!-- Beak -->
+  <path d="M58 25 L72 28 L58 28 Z" fill="#D4902A" />
+  <!-- Sad eye -->
+  <circle cx="47" cy="20" r="3" fill="#1a1a2e" />
+  <circle cx="48" cy="19" r="1" fill="white" />
+  <!-- Sad eyebrow -->
+  <path d="M43 16 L51 14" stroke="#1a1a2e" stroke-width="1.5" stroke-linecap="round" />
+  <!-- Tear -->
+  <path d="M47 24 Q46 28 47 30" stroke="#87CEEB" stroke-width="2" fill="none" stroke-linecap="round" />
+  <circle cx="47" cy="31" r="2" fill="#87CEEB" />
+  <!-- Feet -->
+  <path d="M45 102 L35 108 L45 106 L40 112 L50 106 L45 102" fill="#D4902A" />
+  <path d="M75 102 L65 108 L75 106 L70 112 L80 106 L75 102" fill="#D4902A" />
+</svg>

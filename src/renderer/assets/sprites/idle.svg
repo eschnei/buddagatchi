@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <!-- Goose body -->
+  <ellipse cx="60" cy="75" rx="35" ry="28" fill="#F5F0E8" />
+  <ellipse cx="60" cy="78" rx="32" ry="24" fill="#EDE8DC" />
+  <!-- Wing -->
+  <ellipse cx="38" cy="72" rx="14" ry="20" fill="#E8E0D0" transform="rotate(-10 38 72)" />
+  <ellipse cx="82" cy="72" rx="14" ry="20" fill="#E8E0D0" transform="rotate(10 82 72)" />
+  <!-- Neck -->
+  <path d="M55 55 Q50 35 55 20" stroke="#F5F0E8" stroke-width="14" fill="none" stroke-linecap="round" />
+  <path d="M55 55 Q50 35 55 20" stroke="#EDE8DC" stroke-width="10" fill="none" stroke-linecap="round" />
+  <!-- Head -->
+  <circle cx="55" cy="18" r="12" fill="#F5F0E8" />
+  <!-- Beak -->
+  <path d="M63 18 L78 16 L63 21 Z" fill="#F4A030" />
+  <!-- Eye -->
+  <circle cx="52" cy="15" r="3" fill="#1a1a2e" />
+  <circle cx="53" cy="14" r="1" fill="white" />
+  <!-- Feet -->
+  <path d="M45 100 L35 108 L45 105 L40 112 L50 105 L45 100" fill="#F4A030" />
+  <path d="M75 100 L65 108 L75 105 L70 112 L80 105 L75 100" fill="#F4A030" />
+</svg>

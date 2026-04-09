@@ -1,0 +1,88 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #root {
+  background: transparent !important;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+
+/* --- Pet sprite animations (Step 7.3) --- */
+
+/* Idle: gentle floating bob */
+@keyframes pet-idle {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-6px); }
+}
+
+/* Happy: bouncy wiggle */
+@keyframes pet-happy {
+  0%, 100% { transform: translateY(0) rotate(0deg); }
+  15% { transform: translateY(-8px) rotate(-3deg); }
+  30% { transform: translateY(0) rotate(0deg); }
+  45% { transform: translateY(-10px) rotate(3deg); }
+  60% { transform: translateY(0) rotate(0deg); }
+  75% { transform: translateY(-5px) rotate(-2deg); }
+}
+
+/* Sad: slow droopy sway */
+@keyframes pet-sad {
+  0%, 100% { transform: translateY(2px) rotate(0deg); }
+  25% { transform: translateY(4px) rotate(-2deg); }
+  75% { transform: translateY(4px) rotate(2deg); }
+}
+
+/* Eating: scale pulse (chomping) */
+@keyframes pet-eating {
+  0%, 100% { transform: scale(1); }
+  20% { transform: scale(1.06, 0.94); }
+  40% { transform: scale(0.96, 1.04); }
+  60% { transform: scale(1.04, 0.96); }
+  80% { transform: scale(0.98, 1.02); }
+}
+
+/* Sleeping: slow breathing */
+@keyframes pet-sleeping {
+  0%, 100% { transform: scale(1) translateY(0); }
+  50% { transform: scale(1.03, 1.05) translateY(-2px); }
+}
+
+/* Farting: shake + opacity pulse */
+@keyframes pet-farting {
+  0%, 100% { transform: translateX(0); opacity: 1; }
+  10% { transform: translateX(-3px); }
+  20% { transform: translateX(3px); opacity: 0.85; }
+  30% { transform: translateX(-2px); }
+  40% { transform: translateX(2px); opacity: 0.9; }
+  50% { transform: translateX(-1px); }
+  60% { transform: translateX(1px); opacity: 0.95; }
+  70% { transform: translateX(0); }
+}
+
+.animate-pet-idle {
+  animation: pet-idle 3s ease-in-out infinite;
+}
+
+.animate-pet-happy {
+  animation: pet-happy 1.2s ease-in-out infinite;
+}
+
+.animate-pet-sad {
+  animation: pet-sad 4s ease-in-out infinite;
+}
+
+.animate-pet-eating {
+  animation: pet-eating 0.6s ease-in-out infinite;
+}
+
+.animate-pet-sleeping {
+  animation: pet-sleeping 4s ease-in-out infinite;
+}
+
+.animate-pet-farting {
+  animation: pet-farting 0.5s ease-in-out;
+}

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <!-- Goose body -->
+  <ellipse cx="60" cy="75" rx="35" ry="28" fill="#F5F0E8" />
+  <ellipse cx="60" cy="78" rx="32" ry="24" fill="#EDE8DC" />
+  <!-- Wings raised happily -->
+  <ellipse cx="32" cy="65" rx="14" ry="22" fill="#E8E0D0" transform="rotate(-25 32 65)" />
+  <ellipse cx="88" cy="65" rx="14" ry="22" fill="#E8E0D0" transform="rotate(25 88 65)" />
+  <!-- Neck -->
+  <path d="M55 52 Q48 30 55 12" stroke="#F5F0E8" stroke-width="14" fill="none" stroke-linecap="round" />
+  <path d="M55 52 Q48 30 55 12" stroke="#EDE8DC" stroke-width="10" fill="none" stroke-linecap="round" />
+  <!-- Head -->
+  <circle cx="55" cy="10" r="12" fill="#F5F0E8" />
+  <!-- Beak open -->
+  <path d="M63 8 L80 5 L63 11 Z" fill="#F4A030" />
+  <path d="M63 13 L78 17 L63 15 Z" fill="#E8912A" />
+  <!-- Happy eyes -->
+  <path d="M48 8 Q52 4 56 8" stroke="#1a1a2e" stroke-width="2.5" fill="none" stroke-linecap="round" />
+  <!-- Rosy cheeks -->
+  <circle cx="46" cy="13" r="3" fill="#FFB5B5" opacity="0.5" />
+  <!-- Feet -->
+  <path d="M45 100 L35 108 L45 105 L40 112 L50 105 L45 100" fill="#F4A030" />
+  <path d="M75 100 L65 108 L75 105 L70 112 L80 105 L75 100" fill="#F4A030" />
+</svg>
